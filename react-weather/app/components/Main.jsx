@@ -1,7 +1,7 @@
-var React = require('react');
-var Nav = require('Nav');
+import React from 'react';
+import Nav from 'Nav';
 
-var Main = React.createClass({
+const Main = React.createClass({
   render: function () {
     return (
       <div>
@@ -13,4 +13,4 @@ var Main = React.createClass({
   }
 });
 
-module.exports = Main;
+export default Main;

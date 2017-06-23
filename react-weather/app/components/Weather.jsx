@@ -1,11 +1,14 @@
-var React = require('react');
+import React from 'react';
 
-var Weather = React.createClass({
-  render: function () {
-    return (
-      <h3>Weather Component</h3>
-    )
-  }
+const Weather = React.createClass({
+    render: function () {
+        return (
+            <div>
+                <h3>Weather Component</h3>
+
+            </div>
+        )
+    }
 });
 
-module.exports = Weather;
+export default Weather;

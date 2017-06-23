@@ -1,6 +1,6 @@
-var React = require('react');
+import React from 'react';
 
-var Examples = React.createClass({
+const Examples = React.createClass({
   render: function () {
     return (
       <h3>Examples Component</h3>
@@ -8,4 +8,4 @@ var Examples = React.createClass({
   }
 });
 
-module.exports = Examples;
+export default Examples;
